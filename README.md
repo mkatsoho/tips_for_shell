@@ -19,4 +19,8 @@ Tue Nov 7 10:46:43 UTC 48079
 ## show datetime string
 date '+%Y%m%dT%H%M%S'
 20171011T161024
+
+## an example
+ts=$(date '+%Y%m%dT%H%M%S'); echo ${ts}
+20171011T161024
 ```
