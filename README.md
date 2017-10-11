@@ -15,4 +15,8 @@ tar -zcvf little_app.tgz --exclude little_app/node_modules  --exclude little_app
 ## convert timestamp to date string. Not suitable for macos.
 date -d @1455086371603
 Tue Nov 7 10:46:43 UTC 48079
+
+## show datetime string
+date '+%Y%m%dT%H%M%S'
+20171011T161024
 ```
